@@ -1,13 +1,13 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me. You can know more from /help.\n\nTelegram Group: @linux_repo \nTelegram Channel: @Discovery_Updates"
+    START_MSG = "Hi {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me. You can know more from /help.\n\nTelegram Group: @linux_repo \nTelegram Channel: @Discovery_Updates"
 
     HELP_MSG = [
         ".",
         "Hi there.\n\nFirst things first. You should be aware that youtube processes each and every video uploaded, and it's AI is amazing that it flags the video for copyrights if it finds copywrited content as soon as its uploaded, and you will not be able to publish the video.\n\nRead through all the pages to know how I work.",
 
-        "**Lets learn how I work.**\n\n**Step 1:** __You authorise me to upload to your youtube channel. More about this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply __/upload __to the forwarded video file. You can also specify some title in the upload command, but its optional though. Title will follow the __`/upload`. __If no title is given, filename will be used as title.__\n\n**Step 4:** I remotely download the file and uploads to your Youtube channel.\n\n**Step 5:** I send you the Youtube link after upload.",
+        "**Lets learn how I work.**\n\n**Step 1:** __You [authorise](https://accounts.google.com/o/oauth2/v2/auth?client_id=905188182711-vnh37gt314tqvhgaftgbm9aambp36bsm.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&access_type=offline&response_type=code) me to upload to your youtube channel. More about this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply __/upload __to the forwarded video file. You can also specify some title in the upload command, but its optional though. Title will follow the __`/upload`. __If no title is given, filename will be used as title.__\n\n**Step 4:** I remotely download the file and uploads to your Youtube channel.\n\n**Step 5:** I send you the Youtube link after upload.",
 
         "**Create your YouTube Channel**\n\nThere is no point in using me if you don't have a Youtube Channel. So go through the given steps to create one.\n\n**Step 1:** __Sign in to YouTube on a computer or using the mobile.__\n\n**Step 2:** __Try any action that requires a channel, such as uploading a video, posting a comment, or creating a playlist.__\n\n**Step 3:** __If you don't yet have a channel, you'll see a prompt to create a channel.__\n\n**Step 4:** __Check the details and confirm to create your new channel.__",
 
