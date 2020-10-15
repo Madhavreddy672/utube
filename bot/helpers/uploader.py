@@ -67,7 +67,7 @@ class Uploader:
             categoryName = self.video_category[categoryId]
             title = self.title if self.title else os.path.basename(self.file)
             title = (Config.VIDEO_TITLE_PREFIX + title + Config.VIDEO_TITLE_SUFFIX).replace('<', '').replace('>', '')[:100]
-            description = (Config.VIDEO_DESCRIPTION + '\nUploaded to YouTube with https://tx.me/youtubeitbot')[:5000]
+            description = (Config.VIDEO_DESCRIPTION + '\nUploaded to YouTube with https://tx.me/YouTube_UploaderBot')[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = 'private'
             else:
@@ -93,6 +93,6 @@ class Uploader:
         except Exception as e:
             log.error(e, exc_info=True)
             self.status = False
-            self.message = f"Error occuered during upload.\nError details: {e}"
+            self.message = f"Error occuered during upload.\nError details: {e} \n\nReport issue in @linux_repo group."
         
 
