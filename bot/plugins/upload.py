@@ -65,7 +65,7 @@ async def _upload(c, m):
         return
 
     try:
-        await snt.edit_text("Downloaded to local, Now starting to upload to youtube...")
+        await snt.edit_text("Downloaded to local, Now starting to upload to youtube ...")
     except:
         pass
     title = ' '.join(m.command[1:])
